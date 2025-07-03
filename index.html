@@ -1,19 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lens and light</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lens and Light</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+      background-color: #f8f9fa;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .grid img:hover {
+      transform: scale(1.02);
+    }
+  </style>
 </head>
 <body>
-    <h1><strong>Freezing time, one click at a time. - Llama4</strong></h1>
-    <p><em>This site is made by <strong>PA1</strong> as a museum of his rare photos. Feast your eyes on this extravagant buffet.</em></p>
-    <img src="https://i.ibb.co/bjRMGq3H/1000052305.jpg" alt="A beautiful photo of a sunset over a mountain range" style="width: 100%; height: auto;"
-    title="A beautiful photo of a sunset over a mountain range">
-    <img src="https://i.ibb.co/nq2gfQtr/1000052310.jpg" alt="A serene photo of a forest with sunlight filtering through the trees" style="width: 100%; height: auto;"
-    title="A serene photo of a forest with sunlight filtering through the trees">
-    <img src="https://i.ibb.co/SXcJXWZQ/1000052314.jpg" alt="A captivating photo of a city skyline at night with lights reflecting on the water" style="width: 100%; height: auto;"
-    title="A captivating photo of a city skyline at night with lights reflecting on the water">
-    
+  <h1><strong>Freezing time, one click at a time. - Llama4</strong></h1>
+  <p><em>This site is made by <strong>PA1</strong> as a museum of his rare photos. Feast your eyes on this extravagant buffet.</em></p>
+
+  <div class="grid">
+    <img src="https://i.ibb.co/pv7q6GqK/20250312-090419.jpg" alt="Sunset over mountains" title="A beautiful photo of a sunset over a mountain range" />
+    <img src="https://i.ibb.co/k2rqcQVK/20250312-085339.jpg" alt="Sunlight in forest" title="A serene photo of a forest with sunlight filtering through the trees" />
+    <img src="https://i.ibb.co/0PRd2sw/20250312-090032.jpg" alt="City skyline at night" title="A captivating photo of a city skyline at night with lights reflecting on the water" />
+    <img src="https://i.ibb.co/rf7t9rpG/20250312-090456.jpg" alt="Beach at sunset" title="A stunning photo of a beach at sunset with waves crashing on the shore" />
+    <img src="https://i.ibb.co/gZqm6Qtc/20250312-091042.jpg" alt="Cloudy mountain range" title="A breathtaking photo of a mountain range with clouds rolling in" />
+    <img src="https://i.ibb.co/0wrShpx/20250315-172703.jpg" alt="Field of flowers" title="A vibrant photo of a field of flowers in full bloom" />
+    <img src="https://i.ibb.co/V03GmcCY/20250315-173530.jpg" alt="Lake with trees" title="A peaceful photo of a lake surrounded by trees with a clear blue sky" />
+  </div>
 </body>
 </html>
